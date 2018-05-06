@@ -1,3 +1,5 @@
+require('./config/config');
+
 // Importing Libraries
 const _ = require('lodash');
 const express = require('express');
