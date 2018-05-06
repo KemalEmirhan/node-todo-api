@@ -1,13 +1,17 @@
 {
   "name": "todo-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Node API",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
-  "author": "",
+  "engines": {
+    "node": "8.10.0"
+  },
+  "author": "Emirhan Kemal Kösem",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
